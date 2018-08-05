@@ -3,7 +3,7 @@ $.fn.accordion = function(obj){
   obj.minWidth = obj.minWidth || 100;
   var lis = this.find('li');
   
-  //动态的设置颜色
+  //动态的设置颜色.
   lis.each(function(index, element){
     $(element).css('backgroundColor', obj.colors[index]);
   })
